@@ -4,7 +4,7 @@ Full Blog : <https://hiteshai.com/understanding-mcp-with-agno-agents-a-comprehen
 
 ## What is MCP?
 
-MCP (Multi-Component Protocol) is a framework used in the provided codebase to define and expose tools (functions) that can be called by an agent. In the example, `FastMCP` from `mcp.server.fastmcp` creates a server (`server.py`) that hosts mathematical operations like `add`, `multiply`, `divide`, and `subtract`. These tools are registered using the `@mcp.tool()` decorator and run via a transport mechanism (e.g., `stdio`).
+MCP (Modern Context Protocol) is a framework used in the provided codebase to define and expose tools (functions) that can be called by an agent. In the example, `FastMCP` from `mcp.server.fastmcp` creates a server (`server.py`) that hosts mathematical operations like `add`, `multiply`, `divide`, and `subtract`. These tools are registered using the `@mcp.tool()` decorator and run via a transport mechanism (e.g., `stdio`).
 
 ## MCP in Agno
 
